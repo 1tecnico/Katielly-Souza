@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochila Virtual - 2º Ano Ensino Médio</title>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0f2027;
+            color: white;
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border: none;
+            background-color: #1e3c72;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2a5298;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎒 Mochila Virtual</h1>
+    <p>2º Ano do Ensino Médio</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📐 Matemática</h2>
+        <ul>
+            <li>Função Exponencial e Logarítmica</li>
+            <li>Trigonometria</li>
+            <li>Matrizes</li>
+            <li>Determinantes</li>
+            <li>Probabilidade</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>📖 Português</h2>
+        <ul>
+            <li>Interpretação de Texto</li>
+            <li>Literatura Brasileira</li>
+            <li>Figuras de Linguagem</li>
+            <li>Sintaxe</li>
+            <li>Redação Dissertativa</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>🏛️ História</h2>
+        <ul>
+            <li>Brasil Império</li>
+            <li>Revolução Industrial</li>
+            <li>Primeira Guerra Mundial</li>
+            <li>Segunda Guerra Mundial</li>
+            <li>Era Vargas</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>🌎 Geografia</h2>
+        <ul>
+            <li>Geopolítica Mundial</li>
+            <li>Industrialização Brasileira</li>
+            <li>Blocos Econômicos</li>
+            <li>Urbanização</li>
+            <li>Questões Ambientais</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>🧬 Biologia</h2>
+        <ul>
+            <li>Genética</li>
+            <li>Ecologia</li>
+            <li>Evolução</li>
+            <li>Fisiologia Humana</li>
+            <li>Biotecnologia</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>⚡ Física</h2>
+        <ul>
+            <li>Termologia</li>
+            <li>Óptica</li>
+            <li>Ondulatória</li>
+            <li>Leis de Newton</li>
+            <li>Trabalho e Energia</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>🧪 Química</h2>
+        <ul>
+            <li>Química Orgânica</li>
+            <li>Reações Químicas</li>
+            <li>Estequiometria</li>
+            <li>Soluções</li>
+            <li>Termoquímica</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+    <div class="card">
+        <h2>💻 Projeto de Vida / Itinerário</h2>
+        <ul>
+            <li>Planejamento Profissional</li>
+            <li>Educação Financeira</li>
+            <li>Empreendedorismo</li>
+            <li>Tecnologia</li>
+        </ul>
+        <button>Adicionar Material</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 - Mochila Virtual 2º Ano | Desenvolvido por você 💙</p>
+</footer>
+
+</body>
+</html>
